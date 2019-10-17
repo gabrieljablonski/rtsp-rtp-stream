@@ -1,6 +1,7 @@
 # RTSP/RTP Client and Server
  Python implementation of the [Programming Assignment 7](http://media.pearsoncmg.com/aw/aw_kurose_network_3/labs/lab7/lab7.html), from the book "Computer Networking A Top-Down Approach 6th Edition" by Jim Kurose.
- Implements basic RTSP/RTP streaming functionality from the ground up. Further info available in the [assignment guide](http://media.pearsoncmg.com/aw/aw_kurose_network_3/labs/lab7/lab7.html).
+ 
+ Implements basic RTSP/RTP streaming functionality from the ground up. Further info available in the [assignment guide](http://media.pearsoncmg.com/aw/aw_kurose_network_3/labs/lab7/lab7.html). Exception handling is very minimal, so expect having to reopen the server/client after a previous session is finished.
 
 ## Installation
 

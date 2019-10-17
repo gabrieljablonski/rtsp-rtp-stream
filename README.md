@@ -3,7 +3,7 @@
  
  Implements basic RTSP/RTP streaming functionality from the ground up. Further info available in the [assignment guide](http://media.pearsoncmg.com/aw/aw_kurose_network_3/labs/lab7/lab7.html). Exception handling is very minimal, so expect having to reopen the server/client after a previous session is finished.
 
-![Demonstration](rtsp_demo.mp4)
+![Demonstration](rtsp_demo.gif)
 
 ## Installation
 

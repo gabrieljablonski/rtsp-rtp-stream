@@ -10,7 +10,8 @@ class VideoStream:
 
     def __init__(self, file_path: str):
         self._stream = open(file_path, 'rb')
-        # TODO: check if it actually HAS to be 1-indexed
+        # frame number is zero-indexed
+        # after first frame is sent, this is set to zero
         self.current_frame_number = -1
 
     def close(self):

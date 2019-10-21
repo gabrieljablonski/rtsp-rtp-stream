@@ -7,7 +7,7 @@
 
 ## Installation
 
-Clone the repository with `git clone https://github.com/gabrieljablonski/rtsp-client-server`.
+Clone the repository with `git clone https://github.com/gabrieljablonski/rtsp-rtp-stream`.
 
 Having python>=3.6 installed, create a virtual environment by running `python -m venv venv` inside the cloned folder.
 

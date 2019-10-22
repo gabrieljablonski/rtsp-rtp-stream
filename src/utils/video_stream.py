@@ -9,7 +9,7 @@ class VideoStream:
     JPEG_EOF = b'\xff\xd9'
 
     def __init__(self, file_path: str):
-        # for simplicity, mjpeg is assumed to always be on same folder as this file
+        # for simplicity, mjpeg is assumed to be on working directory
         self._stream = open(file_path, 'rb')
         # frame number is zero-indexed
         # after first frame is sent, this is set to zero

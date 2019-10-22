@@ -27,7 +27,7 @@ Client can then be run with
 ```
 python main_client.py <file name> <host address> <host port> <RTP port>
 ```
-where `file name` is the name for the file to be sent via RTP (`movie.mjpeg` is the available sample), `host address` is the server address (`localhost` if running on same machine), `host port` is the port selected when running the server, `RTP port` is the port for receiving the video via RTP.
+in which `file name` is the name for the file to be sent via RTP (`movie.mjpeg` is the available sample), `host address` is the server address (`localhost` if running on same machine), `host port` is the port selected when running the server, `RTP port` is the port for receiving the video via RTP.
 
 Since you're probably running each instance on separate terminals, remember to activate the venv on both.
 

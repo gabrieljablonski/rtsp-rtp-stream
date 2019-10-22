@@ -3,7 +3,7 @@
  
  Implements basic RTSP and RTP streaming functionality using the standard Python 3 library, plus [PyQt5](https://pypi.org/project/PyQt5/) and [Pillow](https://github.com/python-pillow/Pillow) for stuff related to GUI. Further info available in the [assignment guide](http://media.pearsoncmg.com/aw/aw_kurose_network_3/labs/lab7/lab7.html) (from the 3rd edition, newer versions of the book might change the assignment slightly). Error handling is very minimal, reopening the server and client is required to run another session.
  
- ### **THIS IMPLEMENTATION DOES NOT DIRECTLY FOLLOW THE ONE PROVIDED BY THE BOOK AUTHORS**
+ ### **THIS IMPLEMENTATION DOES NOT STRICTLY FOLLOW THE ONE PROVIDED BY THE BOOK AUTHORS**
 
 ![Demonstration](rtsp_demo.gif)
 

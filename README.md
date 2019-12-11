@@ -24,7 +24,11 @@ Install the requirements with `python -m pip install -r requirements.txt`.
 
 Go to the sources folder with `cd src/` (video stream class assumes `mjpeg` file is in working directory).
 
-Server should be run first with `python main_server.py <port>`, where `port` is the port number for the RTSP socket to listen on.
+Server should be run first with 
+```
+python main_server.py <port> 
+```
+In which `port` is the port number for the RTSP socket to listen on.
 
 Client can then be run with 
 ```
